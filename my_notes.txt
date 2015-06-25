@@ -1,0 +1,123 @@
+Stage 2.1 Introduction to Serious Programming
+
+****Python*****
+Learn hot wo use "variable" effectively
+learn how to write "functions" effectively
+
+
+How this lesson works;
+How you'll make it
+Go through lessons 2.1-2.7 (immediately following this lesson.)
+As you go through the lessons, take notes (on paper, on a computer, anywhere).
+After some lessons you'll find a Work Session, during which you'll convert your notes to code.
+If you work 10 hours per week, you can expect to spend 3 - 5 weeks on these lessons and work sessions.
+
+2.1 Introduction to Serious Programming
+* Breaking problems into smaller pieces.
+* Computers, computer programs & the web
+
+Computer science: 
+bulid a search engine ---find data ---- build an index--- rank pages
+
+*Computers is a machine that can be programmed...
+
+* Build a web crawler.. by extracting the first link on a web page.
+	- web crawler finds data based on a seed page and finding links on page to find other pages (with links and so on) 
+	- This complies data which you can pesent 
+
+*Programming
+Foucs Checkpoint;
+	1.Computer
+		- a "toaster"
+	2.Program
+		- something that tells a computer what steps to take
+	3.Precise sequience of steps
+		-a program nees to have very spesific "sequrence of steps"
+	4.computation 
+		-get a computer to do various things
+	5.hith-level language
+		-python gives us a high level language to wirite programs on.
+		-write programs on a program which lies on the coptuer
+	6.input
+		-code to another program
+	7.interpreter
+		Python is an interpreter, runs
+
+*	Think like a programmer
+		1.	The line "...follows the instructions in your code..." references the procedural thinking required of programmers.
+
+		2.	The entire quote demonstrates a deep technological empathy (which you don't need to have at this point) for how computers and programs work.
+
+		3.	When Dave thinks of a Python program, a Python interpreter, and a web browser as different versions of the same thing (a computer program) he's showing abstract thinking.
+
+
+Print= same thing as execute
+Expression = the way you write your command to be printed
+
+*	Getting started with Python Programming
+
+		# lines that start with #are ignored when using python. (like /*  in Css and <!-- in HTML)
+
+		Ambiguity = obscure/ not as excact, language can be interpreted differently
+		Verbosity = usijng more words than needed; worliness
+		Grammer = the language setup = Subject - Verb  - object
+		backus-nour form = the language written in code which is simple and very precise(simplify both abiguity and verbosity)
+
+	BACUS-NAUR FORM
+
+		<non-termial> = something which we are not finished with
+		then -> "arrow" = replacement/terminal
+
+		Derivation = start frm termainal and stop until only terminals are left
+
+	Python Expressons
+		Must match grammer exactly
+		Python Grammar for Arithmetic expressions
+			Expression  --> Expressoin Operator Expression (this is called a recursive definition (two expresseions ater eachother))
+
+		Using decimals (e.g 1.0 instead of just 1) will make results more detailed.
+
+
+2.2 Variables and Strings
+
+	1.	What is a "variable"?
+		-	they can vary
+		- 	Adding a name and assingin a value to that name
+	2.	What does it mean to "Assign" a value to a variable?
+		-	giving a condition to a name
+	3	What is the difference between what the equals (=) means in math versus programming.
+		-	Equal means "assignment", not as in math
+		-	think of the = sign been an arrow back   <= (assign this condition to the name)
+		
+		What is the difference between this 2 + 5 = 5 and this: my_variable = 5?
+			the first one does not have a variable assinged to it, the seccond one has an assignment called "my_variable = 2 + 5" assigned and if you add "print my-variable" and run it will equal 5 
+
+	String (use text as a vairable)
+		a quote surronded by text (e.g 'I am a string!' or "I am a string! or "i'm happy!"). 
+		Has to start and finish with the same quote (single or double)
+
+	String and variable
+		can not add vaiable string and + something (if something is not defined)
+		however if you write a string and * 8, you will get that string  8 times.
+
+	Indexing Strings
+							<string> 		[<expression>]
+							 'olis'			[3]				= s (counts the lettes as 0123)
+							 'olis'			[-1]			= s (counts from the backwords right to left)
+
+	Selecitng Sub sequences
+							<string>		[<expression>] ---> "one -charater string"
+												Number
+
+
+								"s"				"start"			"stop"
+							<string>		[<expression> : expression>] --> string that is subseuence of the 													characters. from 1 : 5 
+												Number			Number
+
+
+								word = 'assume'
+								print word[3]	conts 0123 and finds the letter U			
+								print word[4:6]	counts betwen letter 4 to 6 and finds "me"
+								print word[4:]	counts from letter 4 and until the end "me"
+								print word[:6]	counts from the beginning and six letter out "assume"
+
