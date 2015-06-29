@@ -121,3 +121,17 @@ Expression = the way you write your command to be printed
 								print word[4:]	counts from letter 4 and until the end "me"
 								print word[:6]	counts from the beginning and six letter out "assume"
 
+	Finding  (Find) strings in strings
+		built in procedure build in by Python.
+
+								syntax;
+								<string> .find(<string>)
+						This will find the first position in the search string where the target string appears.
+						if the target string is not found, the output will be " - 1"
+
+						How to find other peramteres?
+							Add another string in your find sting;
+
+							<string> .find(<string>,<number>)	
+
+
