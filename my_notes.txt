@@ -135,3 +135,39 @@ Expression = the way you write your command to be printed
 							<string> .find(<string>,<number>)	
 
 
+2.3 Input ->Function -> Output
+							
+			Example;
+							def say_hello(name):
+								greetins ="hello" + name +"!"
+								return greeting
+						print say_hello("Miriam")
+						print say_hello("Andy")
+
+			Focus Points;
+			What is a funtion
+			How to make a function
+			How to use a function
+			when you should write a function
+			why functions are so valuable
+
+
+			key words; def and return
+
+
+			How to use a procedures	
+
+								<procedure> (<input>, <input>)
+
+					and example of a simple procedure;
+
+					def rest_of_string (s):
+						return s[1:]
+
+					print rest_of_string ('audacity')
+
+
+
+
+
+
